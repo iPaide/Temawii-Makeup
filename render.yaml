@@ -2,7 +2,6 @@ services:
   - type: web
     name: temawii-makeup-demo
     runtime: static
-    plan: free
     staticPublishPath: .
     pullRequestPreviewsEnabled: false
     routes:
